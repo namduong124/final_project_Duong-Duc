@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+.header_top{
+  display: flex;
+  justify-content: space-between;
+  /* padding: ; */
+}
+
+.header_top_language {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.header_top_language i {
+  margin-left: 4px;
+}
