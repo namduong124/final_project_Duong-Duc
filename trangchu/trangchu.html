@@ -12,10 +12,221 @@
 </head>
 
 <body>
-   <!-- Phần 1 (nam dương) -->
-   <div class="namduong">
+    <!-- Phần 1 (nam dương) -->
+    <div class="namduong">
+        <div class="header">
+            <div class="header_logo">
+                <img src="./assets/image.png" alt="" class="header_logo_img">
+            </div>
+            <div class="menu_icon" id="menuIcon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="header_menu " id="menuList">
+                <a href="#">About us</a>
+                <select name="" id="OurClass">
+                    <option value="">Our Class</option>
+                </select>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="header_right">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <div class="header_search">
+                    <i class="fa fa-search"></i>
+                    <input type="text" placeholder="Search.">
+                </div>
+            </div>
+        </div>
+        <div class="first_slide">
+            <div class="first_slide_text">
+                <h1 class="fst">Master Digital Skills <br> with Ease!</h1>
+                <p class="fst">Unlock Digital Mastery Effortlessly! Explore and enhance your <br> skills with our
+                    user-friendly platform.</p>
+                <div class="first_slide_text_lamdep">
+                    <div class="first_slide_text_mau"></div>
+                    <div class="first_slide_text_logo"><img src="./assets/image copy.png" alt=""></div>
+                </div>
+                <div class="first_slide_text_btnnn">
+                    <button class="first_slide_text_btn">Start learning</button>
+                    <button class="first_slide_text_btn">Learn more</button>
+                </div>
+                <div class="first_slide_text_img_linkweb"><img src="./assets/image copy 2.png" alt=""></div>
+            </div>
+            <div class="first_slide_img">
+                <img src="./assets/image copy 3.png" alt="">
+            </div>
+            <div class="first_slide_infront">
+                <h4>Certified Instructor</h4>
+                <div class="ng1">
+                    <div class="first_slide_infront_ng1_img"><img src="./assets/image copy 4.png" alt=""></div>
+                    <div class="ng1_text">
+                        <span>Donald Robert</span>
+                        <p>UI/UX Design</p>
+                    </div>
+                </div>
+                <div class="ng2">
+                    <div class="first_slide_infront_ng1_img"><img src="./assets/image copy 5.png" alt=""></div>
+                    <div class="ng1_text">
+                        <span>John White</span>
+                        <p>Web Development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="second_slide">
+            <div class="second_slide_ourlcass">
+                <div class="second_slide_ourlcass_mau"></div>
+                <h4>Our Class</h4>
+            </div>
+            <h2>Best selling class</h2>
+            <div class="second_slide_list">
+                <button class="btn_change" onclick="changecolor('btn-design')" id="btn-design">UI/UX Design</button>
+                <button class="btn_change" onclick="changecolor('btn-web')" id="btn-web">Web Development</button>
+                <button class="btn_change" onclick="changecolor('btn-data')" id="btn-data">Data Science</button>
+            </div>
+            <div class="second_slide_selling" id="second_slide_selling">
+                <div class="sell">
+                    <img src="./assets/sell1.png" alt="">
+                    <div class="sell_text">
+                        <h6>Introduction to Design System in Figma</h6>
+                        <div class="sell_text_time">
+                            <p><i class="fa-sharp fa-regular fa-file-lines"></i>16 Lesson</p>
+                            <p><i class="fa-regular fa-clock"></i>16 Week</p>
+                        </div>
+                        <div class="sell_text_price">
+                            <p>$350</p>
+                            <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.9</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sell">
+                    <img src="./assets/sell2.png" alt="">
+                    <div class="sell_text">
+                        <h6>Introduction to Design Thinking Framework</h6>
+                        <div class="sell_text_time">
+                            <p><i class="fa-sharp fa-regular fa-file-lines"></i>17 Lesson</p>
+                            <p><i class="fa-regular fa-clock"></i>16 Week</p>
+                        </div>
+                        <div class="sell_text_price">
+                            <p>$360</p>
+                            <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.7</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sell">
+                    <img src="./assets/sell3.png" alt="">
+                    <div class="sell_text">
+                        <h6>Design Principle and Fundamentals for UI Designer</h6>
+                        <div class="sell_text_time">
+                            <p><i class="fa-sharp fa-regular fa-file-lines"></i>15 Lesson</p>
+                            <p><i class="fa-regular fa-clock"></i>16 Week</p>
+                        </div>
+                        <div class="sell_text_price">
+                            <p>$340</p>
+                            <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.8</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sell" id="sell_an">
+                    <img src="./assets/sell4.png" alt="">
+                    <div class="sell_text">
+                        <h6>Designing Responsive Dashboard for Fintech in Figma</h6>
+                        <div class="sell_text_time">
+                            <p><i class="fa-sharp fa-regular fa-file-lines"></i>19 Lesson</p>
+                            <p><i class="fa-regular fa-clock"></i>16 Week</p>
+                        </div>
+                        <div class="sell_text_price">
+                            <p>$380</p>
+                            <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 5.0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second_slide_selling_web" id="second_slide_selling_web">
+                <div class="sell s_web">
+                    <img src="./assets/sell1.png" alt="">
+                    <div class="sell_text">
+                        <h6>Introduction to Web Development in Figma</h6>
+                        <div class="sell_text_time">
+                            <p><i class="fa-sharp fa-regular fa-file-lines"></i>16 Lesson</p>
+                            <p><i class="fa-regular fa-clock"></i>16 Week</p>
+                        </div>
+                        <div class="sell_text_price">
+                            <p>$350</p>
+                            <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.9</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sell s_web">
+                    <img src="./assets/sell2.png" alt="">
+                    <div class="sell_text">
+                        <h6>Introduction to Web Development Framework</h6>
+                        <div class="sell_text_time">
+                            <p><i class="fa-sharp fa-regular fa-file-lines"></i>17 Lesson</p>
+                            <p><i class="fa-regular fa-clock"></i>16 Week</p>
+                        </div>
+                        <div class="sell_text_price">
+                            <p>$360</p>
+                            <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.7</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sell s_web">
+                    <img src="./assets/sell3.png" alt="">
+                    <div class="sell_text">
+                        <h6>Web Development for UI Designer</h6>
+                        <div class="sell_text_time">
+                            <p><i class="fa-sharp fa-regular fa-file-lines"></i>15 Lesson</p>
+                            <p><i class="fa-regular fa-clock"></i>16 Week</p>
+                        </div>
+                        <div class="sell_text_price">
+                            <p>$340</p>
+                            <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.8</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second_slide_selling_data" id="second_slide_selling_data">
+                <div class="sell s_data">
+                    <img src="./assets/sell1.png" alt="">
+                    <div class="sell_text">
+                        <h6>Introduction to Web Development in Figma</h6>
+                        <div class="sell_text_time">
+                            <p><i class="fa-sharp fa-regular fa-file-lines"></i>16 Lesson</p>
+                            <p><i class="fa-regular fa-clock"></i>16 Week</p>
+                        </div>
+                        <div class="sell_text_price">
+                            <p>$350</p>
+                            <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.9</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sell s_data">
+                    <img src="./assets/sell2.png" alt="">
+                    <div class="sell_text">
+                        <h6>Introduction to Web Development Framework</h6>
+                        <div class="sell_text_time">
+                            <p><i class="fa-sharp fa-regular fa-file-lines"></i>17 Lesson</p>
+                            <p><i class="fa-regular fa-clock"></i>16 Week</p>
+                        </div>
+                        <div class="sell_text_price">
+                            <p>$360</p>
+                            <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.7</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second_slide_btn">
+                <button id="viewall" class="second_slide_btnn">View all class <i
+                        class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+        <script src="./duong.js"></script>
+    </div>
 
-   </div>
+
+    <!-- Phần 2 (minh đức) -->
+    <div class="minhduc">
 
    <!-- Phần 2 (minh đức) -->
    <div class="minhduc">
@@ -112,7 +323,200 @@
    <!-- Phần 3 (nam phong) -->
    <div class="namphong">
 
-   </div>
+    <!-- Phần 3 (nam phong) -->
+    <div class="namphong">
+<section class="about-section">
+<div class="container">
+<div class="about-card">
+<div class="about-grid">
+<!-- Image -->
+<div class="about-image">
+<img src="./assets/image1.png" alt="Students learning together with a laptop" />
+</div>
+
+
+<!-- Content -->
+<div class="about-content">
+<div class="about-header">
+<span class="line"></span>
+<span class="eyebrow">About us</span>
+</div>
+
+
+<h2 class="title">E‑Learning Platform for Digital Skills</h2>
+
+
+<p class="description">
+Empower yourself with the knowledge and skills gained through online education! The key to your future!
+Empower yourself with the knowledge and skills gained through online education! The key to your future!
+</p>
+
+
+<a href="#" class="btn btn-primary">
+Learn more
+<svg xmlns="" viewBox="0 0 24 24" fill="currentColor" class="icon">
+<path fill-rule="evenodd" d="M3.75 12a.75.75 0 0 1 .75-.75h12.19l-4.72-4.72a.75.75 0 1 1 1.06-1.06l6 6a.75.75 0 0 1 0 1.06l-6 6a.75.75 0 1 1-1.06-1.06l4.72-4.72H4.5A.75.75 0 0 1 3.75 12Z" clip-rule="evenodd" />
+</svg>
+</a>
+</div>
+</div>
+
+
+<!-- Stats -->
+<div class="stats">
+<div class="stat">
+<div class="number">15<span class="accent">+</span></div>
+<div class="label">Years of experience</div>
+</div>
+
+
+<div class="stat">
+<div class="number">100<span class="accent">k</span></div>
+<div class="label">Students worldwide</div>
+</div>
+
+
+<div class="stat">
+<div class="number">45<span class="accent">+</span></div>
+<div class="label">Class subjects</div>
+</div>
+
+
+<div class="stat">
+<div class="number">98<span class="accent">%</span></div>
+<div class="label">Student satisfactions</div>
+</div>
+</div>
+</div>
+</section>
+
+    <!-- Blog list -->
+    <section class="blog-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow"><span class="line"></span> Blog</div>
+          <h2 class="title">Browse articles</h2>
+        </div>
+
+        <div class="cards">
+          <!-- Card 1 -->
+          <article class="card">
+            <div class="thumb">
+              <img src="./assets/image2.png" alt="Article cover" />
+            </div>
+            <div class="meta">
+              <div class="by"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5Zm0 2c-4.42 0-8 2.24-8 5v1h16v-1c0-2.76-3.58-5-8-5Z"/></svg>Tom Kennedy</div>
+              <div class="date"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h2v2h6V2h2v2h3v18H4V4h3ZM6 8v12h12V8Zm2 2h3v3H8Zm5 0h3v3h-3ZM8 15h3v3H8Zm5 0h3v3h-3Z"/></svg>Feb 23, 2024</div>
+            </div>
+            <h3 class="card-title">Lorem ipsum dolor sit amet consectetur.</h3>
+            <div class="card-foot">
+              <a class="readmore" href="#">Read more <svg class="ico" viewBox="0 0 24 24"><path d="M3 12h14.59l-4.3-4.29L14 6l6 6-6 6-1.71-1.71L17.59 13H3z"/></svg></a>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="card">
+            <div class="thumb">
+              <img src="./assets/image3.png" alt="Article cover" />
+            </div>
+            <div class="meta">
+              <div class="by"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5Zm0 2c-4.42 0-8 2.24-8 5v1h16v-1c0-2.76-3.58-5-8-5Z"/></svg>Tom Kennedy</div>
+              <div class="date"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h2v2h6V2h2v2h3v18H4V4h3ZM6 8v12h12V8Zm2 2h3v3H8Zm5 0h3v3h-3ZM8 15h3v3H8Zm5 0h3v3h-3Z"/></svg>Feb 23, 2024</div>
+            </div>
+            <h3 class="card-title">Lorem ipsum dolor sit amet consectetur.</h3>
+            <div class="card-foot">
+              <a class="readmore" href="#">Read more <svg class="ico" viewBox="0 0 24 24"><path d="M3 12h14.59l-4.3-4.29L14 6l6 6-6 6-1.71-1.71L17.59 13H3z"/></svg></a>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="card">
+            <div class="thumb">
+              <img src="./assets/image33.png" alt="Article cover" />
+            </div>
+            <div class="meta">
+              <div class="by"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5Zm0 2c-4.42 0-8 2.24-8 5v1h16v-1c0-2.76-3.58-5-8-5Z"/></svg>Tom Kennedy</div>
+              <div class="date"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h2v2h6V2h2v2h3v18H4V4h3ZM6 8v12h12V8Zm2 2h3v3H8Zm5 0h3v3h-3ZM8 15h3v3H8Zm5 0h3v3h-3Z"/></svg>Feb 23, 2024</div>
+            </div>
+            <h3 class="card-title">Lorem ipsum dolor sit amet consectetur.</h3>
+            <div class="card-foot">
+              <a class="readmore" href="#">Read more <svg class="ico" viewBox="0 0 24 24"><path d="M3 12h14.59l-4.3-4.29L14 6l6 6-6 6-1.71-1.71L17.59 13H3z"/></svg></a>
+            </div>
+          </article>
+        </div>
+
+        <div class="center">
+          <a href="#" class="btn btn-primary">View all <svg class="ico" viewBox="0 0 24 24"><path d="M3 12h14.59l-4.3-4.29L14 6l6 6-6 6-1.71-1.71L17.59 13H3z"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA banner -->
+    <section class="cta">
+      <div class="container">
+        <div class="cta-grid">
+          <h3 class="cta-title">Join the world largest<br />online learning platform</h3>
+
+          <form class="cta-form" action="#" method="post" onsubmit="return false;">
+            <div class="field">
+              <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5Z"/></svg>
+              <input type="email" placeholder="name@email.com" />
+            </div>
+            <button class="btn btn-dark" type="submit">Join now</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="brandline">
+            <svg class="mark" viewBox="0 0 80 20" aria-hidden="true">
+              <circle cx="10" cy="10" r="4" fill="var(--accent)"/>
+              <circle cx="22" cy="6" r="3" fill="var(--accent)"/>
+              <circle cx="22" cy="14" r="3" fill="var(--accent)"/>
+              <circle cx="34" cy="10" r="4" fill="var(--accent)"/>
+            </svg>
+            <span class="brand">Digilearn</span>
+          </div>
+          <p class="f-text">Unlock Digital Mastery Effortlessly! Explore and enhance your skills with our user‑friendly platform.</p>
+        </div>
+
+        <nav class="footer-col">
+          <h4 class="f-title">Quick links</h4>
+          <ul class="f-list">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Our Class</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-col">
+          <h4 class="f-title">Resources</h4>
+          <ul class="f-list">
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-col">
+          <h4 class="f-title">Social media</h4>
+          <div class="socials">
+            <a href="#" aria-label="Facebook" class="s"><svg viewBox="0 0 24 24"><path d="M13 10h3l-1 4h-2v8h-4v-8H7v-4h2V8a4 4 0 0 1 4-4h3v4h-3a1 1 0 0 0-1 1Z"/></svg></a>
+            <a href="#" aria-label="Twitter" class="s"><svg viewBox="0 0 24 24"><path d="M22 5.8a8.6 8.6 0 0 1-2.5.7 4.3 4.3 0 0 0 1.9-2.4 8.6 8.6 0 0 1-2.7 1A4.3 4.3 0 0 0 8 8.8a12.2 12.2 0 0 1-8.9-4.5 4.3 4.3 0 0 0 1.3 5.7 4.2 4.2 0 0 1-2-.6v.1a4.3 4.3 0 0 0 3.5 4.2 4.3 4.3 0 0 1-2 .1 4.3 4.3 0 0 0 4 3 8.7 8.7 0 0 1-5.3 1.8A8.9 8.9 0 0 1 0 20a12.2 12.2 0 0 0 6.6 1.9c7.9 0 12.3-6.6 12.3-12.3v-.6A8.7 8.7 0 0 0 22 5.8Z"/></svg></a>
+            <a href="#" aria-label="Instagram" class="s"><svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm-5 4.5A5.5 5.5 0 1 1 6.5 14 5.5 5.5 0 0 1 12 8.5Zm0 2A3.5 3.5 0 1 0 15.5 14 3.5 3.5 0 0 0 12 10.5Zm5.25-3.5a1.25 1.25 0 1 1-1.25 1.25 1.25 1.25 0 0 1 1.25-1.25Z"/></svg></a>
+            <a href="#" aria-label="LinkedIn" class="s"><svg viewBox="0 0 24 24"><path d="M6 9H3v12h3Zm-.5-6A1.5 1.5 0 1 0 7 4.5 1.5 1.5 0 0 0 5.5 3ZM21 21h-3v-6.3c0-3.8-4-3.5-4 0V21h-3V9h3v1.8C15.5 8.3 21 8 21 13.2Z"/></svg></a>
+            <a href="#" aria-label="YouTube" class="s"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.2 31.2 0 0 0 0 12a31.2 31.2 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.2 31.2 0 0 0 24 12a31.2 31.2 0 0 0-.5-5.8ZM9.8 15.5V8.5l6.3 3.5Z"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    </div>
 </body>
 
 </html>
