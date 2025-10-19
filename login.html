@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sign in</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="login.css" />
+</head>
+
+<body>
+  <main class="page">
+    <!-- Left panel: form -->
+    <section class="panel">
+      <div class="panel-inner">
+        <h1 class="title">Sign in to your account</h1>
+
+        <!-- Email -->
+        <div class="row">
+          <div class="field full">
+            <label>Email</label>
+            <input type="text" placeholder="Username or Email ID" />
+          </div>
+        </div>
+
+        <!-- Password -->
+        <div class="row">
+          <div class="field full">
+            <label>Password</label>
+            <input type="password" placeholder="Enter Password" />
+          </div>
+        </div>
+
+        <!-- Actions -->
+        <div class="actions">
+          <a href="./trangchu/trangchu.html">
+            <button class="btn-primary">
+              <span>Sign In</span>
+              <svg viewBox="0 0 24 24" class="icon-arrow" aria-hidden="true">
+                <path d="M13.172 12l-4.95-4.95 1.414-1.414L16 12l-6.364 6.364-1.414-1.414z" />
+              </svg>
+            </button>
+          </a>
+        </div>
+
+        <!-- Divider -->
+        <div class="divider">
+          <span>Sign in with</span>
+        </div>
+
+        <!-- Social -->
+        <div class="socials">
+          <button class="btn-social">
+            <svg viewBox="0 0 24 24" class="icon" aria-hidden="true">
+              <path
+                d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06C2 17.07 5.66 21.2 10.44 22v-7.01H7.9v-2.93h2.54V9.41c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.24.19 2.24.19v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.78l-.44 2.93h-2.34V22C18.34 21.2 22 17.07 22 12.06z" />
+            </svg>
+            <span>Facebook</span>
+          </button>
+
+          <button class="btn-social">
+            <svg viewBox="0 0 24 24" class="icon" aria-hidden="true">
+              <path
+                d="M21.6 12.227c0-.63-.057-1.237-.163-1.818H12v3.438h5.381a4.6 4.6 0 0 1-2.002 3.017v2.507h3.247c1.9-1.751 2.974-4.329 2.974-7.144z" />
+              <path
+                d="M12 22c2.7 0 4.968-.895 6.623-2.429l-3.247-2.507c-.9.604-2.05.961-3.376.961-2.595 0-4.793-1.75-5.578-4.102H3.06v2.58A10 10 0 0 0 12 22z" />
+              <path
+                d="M6.422 13.923A5.998 5.998 0 0 1 6 12c0-.664.114-1.305.313-1.923V7.497H3.06A9.997 9.997 0 0 0 2 12c0 1.61.383 3.134 1.06 4.503l3.362-2.58z" />
+              <path
+                d="M12 6.4c1.469 0 2.792.505 3.83 1.498l2.874-2.874C16.965 3.58 14.698 2.6 12 2.6A10 10 0 0 0 3.06 7.497l3.253 2.58C7.207 8.726 9.405 6.4 12 6.4z" />
+            </svg>
+            <span>Google</span>
+          </button>
+
+          <button class="btn-social">
+            <svg viewBox="0 0 24 24" class="icon" aria-hidden="true">
+              <rect x="2" y="4" width="20" height="16" rx="3"></rect>
+              <path d="M6 8h4v8H6zM14 8h4v8h-4z"></path>
+            </svg>
+            <span>Microsoft</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Right visual panel -->
+    <aside class="visual">
+      <!-- thay ảnh bằng file của bạn -->
+      <img src="login.png" alt="People reading on chairs">
+    </aside>
+  </main>
+</body>
+
+</html>
