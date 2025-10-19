@@ -1,45 +1,50 @@
-*{margin: 0; padding: 0;}
+* {
+    margin: 0;
+    padding: 0;
+}
 
-.title{
-    display:flex;
+.title {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 80px;
 }
-.image-course{
-    width: 80px; 
+
+.image-course {
+    width: 80px;
     height: 80px;
 }
-.course h3{
+
+.course h3 {
     font-family: Plus Jakarta Sans;
     font-weight: 600;
-    font-style: SemiBold ;
+    font-style: SemiBold;
     font-size: 24px;
     line-height: 120%;
     letter-spacing: 0%;
 }
 
-.student-information h3{
+.student-information h3 {
     margin-bottom: 8px;
 }
-.student-information p{
+
+.student-information p {
     margin-bottom: 16px;
 }
 
-.review-content{
-    width: 396px;
-}
-.course p{
+.course p {
     opacity: 70%;
-    font: Inter ; 
+    font: Inter;
     font-weight: 400;
-    font-style: Regular ;
-    font-size: 20px; 
+    font-style: Regular;
+    font-size: 20px;
     line-height: 180%;
     letter-spacing: 2%;
 }
-.course h4{
+
+.course h4 {
     opacity: 70%;
-    font: Inter ;
+    font: Inter;
     font-weight: 700;
     font-style: Bold;
     font-size: 20px;
@@ -47,70 +52,83 @@
     letter-spacing: 2%;
 }
 
-.course{
+.course {
     width: 337px;
     height: 331px;
     background-color: #fff;
     padding: 24px;
 }
 
-.content{
+.content {
     display: flex;
     gap: 32px;
+    padding: 80px;
 }
 
-.student{
+.student {
     padding: 32px;
-    display: flex ;
+    display: flex;
     flex-direction: column;
     gap: 16px;
 }
-.information{
-    display:flex;
+
+.information {
+    display: flex;
     gap: 16px;
+    padding-bottom: 10px;
 }
-.img-student{
+
+.img-student {
     width: 92px;
     height: 92px;
 }
-.student-review{
+
+.student-review {
     display: flex;
     gap: 32px;
+    padding: 80px;
 }
 
-.title{
-    display:flex;
+#review-content  {
+    margin-top: -20px;
+}
+
+.title {
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
-.image-course{
-    width: 80px; 
+
+.image-course {
+    width: 80px;
     height: 80px;
 }
-.course h3{
+
+.course h3 {
     font-family: Plus Jakarta Sans;
     font-weight: 600;
-    font-style: SemiBold ;
+    font-style: SemiBold;
     font-size: 24px;
     line-height: 120%;
     letter-spacing: 0%;
 }
-.course p{
+
+.course p {
     opacity: 70%;
-    font: Inter ; 
+    font: Inter;
     font-weight: 400;
-    font-style: Regular ;
-    font-size: 20px; 
+    font-style: Regular;
+    font-size: 15px;
     line-height: 180%;
     letter-spacing: 2%;
 }
-.course h4{
+
+.course h4 {
     opacity: 70%;
-    font: Inter ;
+    font: Inter;
     font-weight: 700;
     font-style: Bold;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 2%;
 }
-
